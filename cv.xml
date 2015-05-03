@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xml" media="screen" href="cv-xhtml.xsl" ?>
+<cv>
+   <author>
+      <firstname>Sébastien</firstname>
+      <surname>Bonnefoy</surname>
+      <address>
+	 <street>7, rue Malakoff</street>
+	 <zipcode>38000</zipcode>
+	 <town>Grenoble</town>
+	 <country>France</country>
+	 <phone>
+	    <mobile>+33 6 64 74 28 85</mobile>
+	 </phone>
+      </address>
+      <age>28</age>
+   </author>
+   <title>Industrial Software Engineer</title>
+   <skills>
+      <skill><title>Languages</title>
+	 <para>
+	    C, C++, Java, PERL, Ada, Assembly 68xxx, VHDL, Visual Basic, PHP, XML, XSL, HTML, CSS, JSP
+	 </para>
+      </skill>
+      <skill><title>Operating systems</title>
+	 <para>
+	    Windows 95/98/NT/2000/XP, UNIX (AIX, Solaris, IRIX), Linux (RedHat, Debian)
+	 </para>
+      </skill>
+      <skill><title>Environments</title>
+	 <para>
+	    Borland C++ Builder, Visual C++, WindRiver Diab C, Rational APEX Duo, GNU/Gcc, QNX Momentix Tool Chain
+	 </para>
+      </skill>
+      <skill><title>Hardware</title>
+	 <para>
+	    Motorola 68xxx, MPC860, 68HC11/16, Intel 8051, ARM, x86
+	 </para>
+      </skill>
+      <skill><title>Tools</title>
+	 <para>
+	    Rational TestRealTime, Rational ClearCase, Merant Dimensions, Merant PVCS, CVS (administration), Ant
+	 </para>
+      </skill>
+      <!--<skill><title>Interpersonal</title>
+	 Ability to communicate. Well-organised and efficient, with the ability to learn very quickly. Enthusiastic and effective team player, but also able to work unsupervised to achieve goals.
+      </skill>-->
+   </skills>
+   <experiences>
+      <experience>
+	 <date>September 2004 - January 2007</date>
+	 <customer>COFRAMI</customer>
+	 <description>
+	    <title>In Kelkoo, the Yahoo shopping internet search engine : </title>
+	    <para>In the statistics team, adaptation of the statistics system to the kelkoo process and configuration management.</para>
+	    <para>Port of the JSP part of the webapp from Apache JServ to Tomcat, and cleanup of the jsp and Perl CGI code. Add support for a single CSS and HTML 4.01 transitional to the webApp.</para>
+	 </description>
+      </experience>
+      <experience>
+	 <date>April 2002 - September 2004</date>
+	 <customer>COFRAMI</customer>
+	 <description>
+	    <title>In Data System &amp; Solutions, joint-venture between Rolls-Royce and SAIC, specialist in nuclear Instrument and control provider, realisation of many missions :</title>
+		 <para><emphasis>May .. September 2004</emphasis> - On site acceptation test and support of neutronic acquisition chain in Ignalina Nuclear Power Plant. During five weeks, support on site for the customer, data recording and curve plotting during reactor operations and analysis of the data in Grenoble.</para>
+	    <para><emphasis>January .. May 2004</emphasis> - Validation testing of the new test bench software dedicated to instrument &amp; control systems periodic testing. I wrote tests and scripts to generate tests data with help of PERL, and XSL for XML parameters files.</para>
+	    <para><emphasis>September 2002 .. December 2004</emphasis> - Verification and validation of nucleonic acquisition chain for Ignalina Nuclear Power Plant Diverse Shutdown System. From specification to validation testing, I verified of all documents dedicated to the acquisition chain, I wrote test strategy and test scenarios and pass the test. I went to Gateshead, UK for 5 weeks for factory acceptance tests.</para>
+	    <para><emphasis>July .. September 2002</emphasis> - Operating System software validation. I passed the validation tests for SPINLINE3 Operating System, on target 68040.</para>
+	    <para><emphasis>April .. July 2002</emphasis> - Unitary Tests on safety network software. This software for safety network in nuclear plants I&amp;C systems. It is an ethernet base network running on MPC860 target. I made unitary test on low level communication software and on target tests with help of PERL scripts.</para>
+	    </description>
+	 </experience>
+	 <experience>
+	    <date>September 2001 - December 2002 </date>
+	    <customer>Eurocopter</customer>
+	    <description>
+	       <title>COFRAMI Gemenos :</title>
+	       <para><emphasis>December 2001 .. April 2002</emphasis> - Port of the Eurocpoter "Station Sol" under multiuser environment, from windows NT to Windows 2000, from Visual Basic 5.0 to Visual Basic 6.0, from SQL Server 6.0 to SQL Server 2000.</para>
+	       <para>"Station Sol" is a maintenance software for helicopters. It is used for maintenance team to follow all parts of helicotpers and to diagnostics failures and parts replacement needs.</para>
+	       <para>I worked on VB5 to VB6 port with pattern substitution in PERL. I also worked on multiuser database part and I delivered software to Eurocpter Marignane.</para>
+	 <experience>
+	    <date>September 2001 - April 2002 </date>
+	    <customer>GEMPLUS</customer>
+	    <description>
+	       <para><emphasis>September .. December 2001</emphasis> - Development of a software for GEMPLUS to distribute smart card IDs to their production sites. Written in VB with Access database, the software allows to distribute IDs and manage use of this IDs by center. Exchanges from central site to production sites is done by XML files. I worked on GUI, on database and on XML files processing.</para>
+	    </description>
+	 </experience>
+	 <experience>
+	    <date>October 2000 - September 2001 </date>
+	    <customer>Diginext</customer>
+	    <description>
+	       <title>In Diginext, Aix en Provence, in a department specialized in safety software developed with B method :</title>
+	       <para><emphasis>August 2001</emphasis> - Developpment of network layer for train speed control software. Developped in C and with PERL scripts.</para>
+	       <para><emphasis>October 2000 .. August 2001</emphasis> - In ERTMS project, developemnt of low level communication layer software for on the track balises. It is a safety software, developed with modele B and translated in Ada 1oo2. Low level layer is developed in Ada.</para>
+	    </description>
+	 </experience>
+	 <experience>
+	    <date>February 2000 - October 2000</date>
+	    <company>Automatique &amp; Industrie</company>
+	    <description>
+	       <title>Engineer Training Course</title>
+	       <para>Automatique &amp; Indutrie (A&amp;I) is a compagny which develop I&amp;C systems. They developed a supervisor (EasyView) to control airport Lighting Control and Electrical Distribution Control. I worked on this software to correct bugs and make evolution. It is developed in C++ using Borland C++ Builder. I also build the web site of the company (http://www.aifrance.com) in ASP.</para>
+	    </description>
+	 </experience>
+	 <experience>
+	    <date>October 1998 - February 2000</date>
+	    <company>I.S.M.E.A.</company>
+	    <description>
+	       <title>Engineer school projects</title>
+	       <para><emphasis>October 1999 .. February 2000</emphasis> - VHDL / Java codesign - This project is a study project, associated to the research project of one of my teachers. The project consisted in interfacing a FPGA Xilinx programmed in VHDL with a computer programmed in Java and linked by the printer port of the PC.</para>
+	       <para><emphasis>October 1998 .. August 1999</emphasis> - Realisation of a swiming pool controler 8051 based - This project is a study project, in collaboration with a company. Its role is to control smartly each element (pump, heating, filling...) of a swiming-pool control system. I finished the hardware breadboard and develop the software in C language with Raisonance real-time kernel.</para>
+	    </description>
+	 </experience>
+	 <experience>
+	    <date>January 1996 - June 1996</date>
+	    <company>Kustom Ingenieurs</company>
+	    <description>
+	       <title>Electrical engineering degree project and training course</title>
+	       <para>Kustom Ingenieurs is a small company dedicated to industrial engineering. I developed the breadboard for an Audioguide based on 68HC11, CS4231 for MPEG Audio decompression and a Xilinx for memory access. I made all specifications with the company, I develop the Xilinx program and I wrote C code for the application.</para>
+	    </description>
+	 </experience>
+      </experiences>
+      <education>
+	 <para><emphasis>1998 .. 2000</emphasis> - Computer science engineer graduate in I.S.M.E.A. ESIM Group in Marseille, France</para>
+	 <para><emphasis>1996 .. 1998</emphasis> - Computer science universitary graduate in Faculty of Science of Luminy, Marseille, France</para>
+	 <para><emphasis>1994 .. 1996</emphasis> - D.U.T Electrical Engineering graduate in IUT1 Joseph Fourrier University, Grenoble, France</para>
+	 <para><emphasis>1994</emphasis> - Baccalaureat E (mathematics &amp; technology) in L'isle sur la Sorgue, France</para>
+      </education>
+      <languages>
+	 <para><emphasis>French</emphasis> : native</para>
+	 <para><emphasis>English</emphasis> : good level</para>
+	 <para><emphasis>Spanish</emphasis> : novice</para> 
+      </languages>
+      <others>
+	 <para>I like skiing and walking in montain.</para>
+	 <para>I was a boy scout from 1984 to 2000, leader from 1994 for 8-11 years old children.</para>
+	 <para>I administrate GNU/Linux in RESUS association (1996-98), at work (2000) and at home since 1996. </para>
+      </others>
+</cv>

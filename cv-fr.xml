@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" media="screen" href="cv-xhtml.xsl" ?>
+<cv>
+  <author>
+     <firstname>Sébastien</firstname>
+     <surname>Bonnefoy</surname>
+     <address>
+        <street>329C route de Mornas</street>
+        <zipcode>38110</zipcode>
+        <town>Saint Victor de Cessieu</town>
+        <country>France</country>
+        <phone>
+           <mobile>+33 6 64 74 28 85</mobile>
+        </phone>
+     </address>
+     <age>38</age>
+  </author>
+  <title>Ingénieur en informatique industrielle</title>
+  <skills>
+     <skill><title>Langages</title>
+        <para>
+           C, C++, Java, PERL, Python, Lua, Go, Ada, Assembleur 68xxx, VHDL, PHP, XML, XSL, HTML, Javascript, CSS
+        </para>
+     </skill>
+     <skill><title>Systèmes d'exploitation</title>
+        <para>
+           Windows, UNIX (AIX, Solaris, IRIX), Linux (RedHat, Debian), QNX
+        </para>
+     </skill>
+     <skill><title>Environnements</title>
+        <para>
+           Borland C++ Builder, Visual C++, WindRiver Diab C, Rational APEX Duo, SCADE, GNU/Gcc, TNI ControlBuild
+        </para>
+     </skill>
+     <skill><title>Hardware</title>
+        <para>
+           Motorola 68xxx, MPC860, 68HC11/16, Intel 8051, Intel x86
+        </para>
+     </skill>
+     <skill><title>Outils</title>
+        <para>
+           Rational TestRealTime, Rational ClearCase, Merant Dimensions, Merant PVCS, CVS (administration), Ant, MS Office, OpenOffice.org
+        </para>
+     </skill>
+     <!--<skill><title>Interpersonal</title>
+        Ability to communicate. Well-organised and efficient, with the ability to learn very quickly. Enthusiastic and effective team player, but also able to work unsupervised to achieve goals.
+     </skill>-->
+  </skills>
+  <experiences>
+     <experience>
+        <date>Septembre 2010 - Octobre 2011</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Responsable technique validation</title>
+           <para>Dans l'équipe TCMS Platform, reponsabilité de l'équipe validation système (7 personnes). Validation d'un système composé d'une architecture materielle standard (calculateurs, boitiers d'entrées sorties déportées, consoles), de couches de bases logicielles </para>
+           <para>En paralléle, expertise auprès des équipes support et d'intégration validation pour les problèmes de temps réel et réseaux.
+        </description>
+     </experience>
+     <experience>
+        <date>Janvier 2007 - Août 2010</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Developper d'outils logiciels</title>
+           <para>Dans l'équipe TCMS Platform, développement d'outils de productivité pour les clients internes et pour l'équipe d'intégration et validation (import de configuration réseau, configuration de sous-système, analyse de traces). Ces outils, principalement développés en Perl, permettent d'adapter au client certains aspects du produits.</para>
+           <para>En paralléle, expertise auprès des équipes support et d'intégration validation pour les problèmes de temps réel et réseaux.
+        </description>
+     </experience>
+     <experience>
+        <date>Octobre 2000 - Decembre 2006</date>
+        <company>COFRAMI</company>
+        <description>
+           <title>Société de Services en Ingénierie Informatique</title>
+           <para>Présente dans toute la France et en Europe, avec un effectif de plus de 2000 ingénieurs opérationnels, COFRAMI travaille au forfait et en régie principalement pour des grands comptes. Après deux années rattaché à l'agence de Gémenos, j'ai rejoint l'agence de Grenoble en avril 2002.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Juin 2005 - Aujourd'hui</date>
+        <customer>Alstom Transport</customer>
+        <description>
+           <title>A Alstom Transport, Villeurbanne</title>
+           <para>Dans l'équipe TCMS Plateform en charge de la R&amp;D d'un système modulaire de contrôle/commande pour les trains, tramways et métros, développement de nouvelles fonctions logicielles, en C, permettant aux logiciels applicatifs d'accéder aux fonctions systèmes.</para>
+           <para>Réalisation des tests d'intégration de l'atelier de génie logiciel conçu autour de TNI/ControlBuild.</para>
+           <para>Support au projet TCMS "Trenes Modulares de Cercanias", avec intervention à Alstom Reischoffen (Alsace) pendant 8 semaines.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Avril 2005 - Mai 2005</date>
+        <customer>Thales</customer>
+        <description>
+           <title>Pour Thales Avionics, Bordeaux</title>
+           <para>Evolution d'un logiciel de la chaîne de développement Themis, développé en C et dédié à la conception de logiciels embarqués à fortes contraintes (aéronautique).
+           </para>
+        </description>
+     </experience>
+     <experience>
+        <date>Septembre 2004 - Avril 2005</date>
+        <customer>Kelkoo</customer>
+        <description>
+           <title>A Kelkoo, le comparateur de prix de Yahoo! : </title>
+           <para>Dans l'équipe "Statistiques", mise en place du processus de développement Kelkoo et mise en place de la gestion de configuration.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Avril 2002 - Septembre 2004</date>
+        <customer>Data System &amp; Solutions</customer>
+        <description>
+           <title>Joint venture entre Rolls-Royce et SAIC, spécialiste en instrumentation et contrôle/commande de centrales nucléaires</title>
+           <para><emphasis>Mai .. Septembre 2004</emphasis> - Recette site de la chaîne d'acquisition neutronique et support sur site pour la centrale nucléaire d'Ignalina (INPP), en Lituanie. Durant cinq semaines, support pour le client, enregistrement de données et tracés de courbes pendant le fonctionnement du réacteur. Analyse de ces courbes et simulation.</para>
+           <!--            <para><emphasis>Janvier .. Mai 2004</emphasis> - Tests de validation du nouveau logiciel banc de test dédié aux tests périodiques du système de contrôle commande. Ecriture de scénarios de tests et de scripts de génération des tests, outils développés en PERL et XSL.</para>-->
+           <para><emphasis>Septembre 2002 .. Décembre 2004</emphasis> - Vérification et validation de la chaîne d'acquisition neutronique d'INPP. Vérification des documents de spécification, définition de la stratégie de validation, écriture du plan et des scénarios de test, passage des tests, développement d'outils.</para>
+           <para><emphasis>Juillet .. Septembre 2002</emphasis> - Validation du logiciel système propriétaire SPINLINE3. Il s'agit du système d'exploitation embarqué sur cible 68040, qualifié pour le contrôle/commande dans le domaine nucléaire.</para>
+           <para><emphasis>Avril .. Juillet 2002</emphasis> - Tests unitaires sur le logiciel de sûreté de carte réseau (ethernet deterministe). Il s'agit du firmware embarqué dans des cartes réseaux de sûreté sur cible MPC860. Ecriture et passage des tests unitaires sur les couches basses du logiciel, en particulier la partie communication ethernet.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Septembre 2001 - Avril 2002 </date>
+        <customer>Eurocopter</customer>
+        <description>
+           <title>Filiale d'EADS, constructeur d'hélicoptères civils et militaires</title>
+           <para>Portage de la "Station Sol" Eurocopter dans un environnement multi-utilisateurs, de windows NT, de Visual Basic 5.0 à Visual Basic 6.0 et de MS SQL Server 6.0 à MS SQL Server 2000.</para>
+           <para>La "Station Sol" est un logiciel de maintenance pour hélicoptères. Il est utilisé par les équipes de maintenance pour avoir un suivi de chaque pièce de l'hélicoptère et faire un diagnostic des pannes et des besoins de remplacement (maintenance préventive).</para>
+           <!--            <para>J'ai travaillé sur le portage de VB5 à VB6 avec un outil de remplacement d'expressions regulières en Perl. J'ai aussi travaillé sur la partie accés concurrents à la base de donnée et j'ai effectué la recette site du projet, à Eurocopter Marignane.</para>-->
+           <!--            <para><emphasis>Septembre .. Décembre 2001</emphasis> - Développement d'un logiciel pour GEMPLUS. Ce logiciel permet d'attribuer des numéros de cartes uniques à des lots de cartes à partir des sites de production et de faire un suivi centralisé des attributions. Ecrit en VB avec une base de données access, le logiciel utilise des fichiers au format XML pour communiquer entre le site central et les sites de productions. J'ai travaillé sur l'IHM, sur les bases de données et sur le traitement des fichiers XML.</para>-->
+        </description>
+     </experience>
+     <experience>
+        <date>Octobre 2000 - Septembre 2001 </date>
+        <customer>Diginext</customer>
+        <description>
+           <title>A Diginext, Aix-en-Provence, dans un département spécialisé dans les logiciels de sûreté développés avec la méthode B :</title>
+           <para><emphasis>Août 2001</emphasis> - Développement en C à l'aide de scripts Perl de la couche réseau d'un logiciel de contrôle de vitesse des trains.</para>
+           <para><emphasis>Octobre 2000 .. Août 2001</emphasis> - Développement en Ada de la couche bas niveau de communication d'un logiciel de sûreté. Il s'agit du logiciel de l'équipement sol de signalisation ERTMS, responsable de l'émission des messages aux trains représentant l'état de la signalisation.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Février 2000 - Octobre 2000</date>
+        <company>Automatique &amp; Industrie</company>
+        <description>
+           <title>Stage Ingénieur</title>
+           <para>Automatique &amp; Industrie (A&amp;I) est une PME dont la principale activité est le développement de systèmes de contrôle/commande. Ils ont développé un superviseur (EasyView) principalement dédié au contrôle d'éclairage de piste d'atterissage d'aéroports, mais utilisé aussi sur des projets de distribution électrique.</para>
+           <para>Dans EasyView : correction de bugs, ajouts de nouvelles fonctionnalités, redéveloppement de l'éditeur graphique permettant de créer et de modifier des écrans. Ce logiciel est développé en C++ à l'aide de Borland C++ Builder. Développement du site internet de la société (http://www.aifrance.com), en ASP.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Octobre 1998 - Février 2000</date>
+        <company>I.S.M.E.A.</company>
+        <description>
+           <title>Projet d'école d'ingénieur</title>
+<!--            <para><emphasis>Octobre 1999 .. Février 2000</emphasis> - codesign VHDL / Java - Il s'agit d'un projet d'école, associé à un projet de recherche mené par un de mes professeurs. Ce projet consiste à interfacer un FPGA Xilinx programmé en VHDL à un ordinateur programmé en Java, reliés par le port d'imprimante du PC.</para>-->
+           <para>Réalisation d'un contrôleur d'appareil de piscine, à base de 8051 - Il s'agit d'un projet d'étude, mené en collaboration avec la société AGEP. Son rôle est de contrôler intelligemment chaque appareil (pompe, chauffage, remplissage, qualité de l'eau...) d'une piscine individuelle. Réalisation d'une maquette et développement du logiciel en C, avec un noyeau temps réel Raisonnance.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Janvier 1996 - Juin 1996</date>
+        <company>Kustom Ingenieurs</company>
+        <description>
+           <title>Projet et stage de fin d'étude de D.U.T.</title>
+           <para>Kustom Ingenieurs est une PME spécialisée en ingénierie. Développement de la maquette d'un Audioguide basé sur un 68HC11, un CS4231 pour la décompression MPEG Audio et un Xilinx pour l'adressage mémoire. Rédaction des spécifications. Développement du Xilinx et écriture du code C d'une application de test.</para>
+        </description>
+     </experience>
+  </experiences>
+  <education>
+     <para><emphasis>1998 .. 2000</emphasis> - Diplôme d'Ingénieur en Informatique Industrielle à l'I.S.M.E.A., groupe ESIM, Marseille</para>
+     <para><emphasis>1996 .. 1998</emphasis> - Licence et Maîtrise d'Informatique à la Faculté de Sciences de Luminy, Marseille</para>
+     <para><emphasis>1994 .. 1996</emphasis> - D.U.T de Génie Electrique et Informatique Industrielle à l'IUT1, Université Joseph Fourier, Grenoble</para>
+     <para><emphasis>1994</emphasis> - Baccalauréat E (mathématiques &amp; technologie) à L'Isle sur la Sorgue</para>
+  </education>
+  <languages>
+     <para><emphasis>Anglais</emphasis> : bon niveau</para>
+     <para><emphasis>Espagnol</emphasis> : débutant</para>
+  </languages>
+  <others>
+     <para>Ski et randonnées en montagne</para>
+     <para>Scoutisme de 1984 à 2000, animateur à partir de 1994 pour les enfants de 8 à 11 ans.</para>
+     <para>Administrateur système GNU/Linux pour l'assocation RESUS Luminy (1996-98) et sur mon ordinateur personnel depuis 1996.</para>
+  </others>
+</cv>
+
