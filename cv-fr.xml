@@ -13,13 +13,13 @@
            <mobile>+33 6 64 74 28 85</mobile>
         </phone>
      </address>
-     <age>38</age>
+     <age>40</age>
   </author>
   <title>Ingénieur en informatique industrielle</title>
   <skills>
      <skill><title>Langages</title>
         <para>
-           C, C++, Java, PERL, Python, Lua, Go, Ada, Assembleur 68xxx, VHDL, PHP, XML, XSL, HTML, Javascript, CSS
+           C, C++, Java, PERL, Python, Lua, Go, Ada, PHP, XML, XSL, HTML, Javascript, CSS
         </para>
      </skill>
      <skill><title>Systèmes d'exploitation</title>
@@ -32,14 +32,14 @@
            Borland C++ Builder, Visual C++, WindRiver Diab C, Rational APEX Duo, SCADE, GNU/Gcc, TNI ControlBuild
         </para>
      </skill>
-     <skill><title>Hardware</title>
-        <para>
-           Motorola 68xxx, MPC860, 68HC11/16, Intel 8051, Intel x86
-        </para>
-     </skill>
      <skill><title>Outils</title>
         <para>
-           Rational TestRealTime, Rational ClearCase, Merant Dimensions, Merant PVCS, CVS (administration), Ant, MS Office, OpenOffice.org
+           Clearcase, Git, Jenkins
+        </para>
+     </skill>
+     <skill><title>Méthodes</title>
+        <para>
+           Méthodes Agiles, Scrum, Lean, Kanban
         </para>
      </skill>
      <!--<skill><title>Interpersonal</title>
@@ -48,10 +48,42 @@
   </skills>
   <experiences>
      <experience>
-        <date>Novembre 2011 - Decembre 2013</date>
+        <date>Janvier 2016 - Aujourd'hui</date>
         <company>Alstom Transport</company>
         <description>
-           <title>Developpeur</title>
+           <title>Coach Agile</title>
+           <para>Acteur de la transformation agile du site de Villeurbanne, organisation des formations des équipes et des manageurs, acompagnement des équipes dans leur mise en oeuvre des méthodes agiles (Scrum, Kanban).</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Janvier 2016 - Aujourd'hui</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Développeur logiciel</title>
+           <para>Dans le cadre de projets d'innovations, développement d'applications web et mobiles en relation avec le train communiquant et l'expérience client.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Octobre 2014 - Aujourd'hui</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Responsable Logiciel</title>
+           <para>Pour les projets RGV2N2 et RGV Maroc, gestion de projet, intégration et développement des logiciels du système d'information voyageurs. Implémentation de nouvelles fonctionalités, correction d'anomalies, investigation, support au client.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Janvier 2014 - Septembre 2014</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Développeur logiciel</title>
+           <para>Dans l'équipe Comet, développement de nouveaux modules logiciels pour une carte (non sécuritaire) de communication (Ethernet, C.A.N., Profibus) et de supervision (date/heure, défauts, maintenance)  utilisée dans les équipements de signalisation embarqués.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Novembre 2011 - Décembre 2013</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Développeur logiciel</title>
            <para>Dans l'équipe MooN, développement d'une nouvelle plateforme critique de sécurité à partir d'une architecture materielle sur étagère (Intel core i7). L'objectif est de créer une plateforme de calcul et d'échanges de données de sécurité (SIL4 au sens EN50128). L'architecture 2oo2 redondée permet d'avoir un taux de disponibilité théorique de 100%.</para>
            <para>Basée sur un hyperviseur certifié SIL4, des conteneurs SIL4 permettent d'éxécuter le code critique tandis qu'un conteneur Linux est responsable de la communication et de la gestion de la carte. Un mecanisme de mémoire partagée permet la comminication entre conteneurs.</para>
            <para>Dans le cadre de ce développement, mise en place de méthodes agiles et en particulier de Scrum, sans que cette expérience perdure plus de quelques mois.</para>
@@ -71,7 +103,7 @@
         <description>
            <title>Developper d'outils logiciels</title>
            <para>Dans l'équipe TCMS Platform, développement d'outils de productivité pour les clients internes et pour l'équipe d'intégration et validation (import de configuration réseau, configuration de sous-système, analyse de traces). Ces outils, principalement développés en Perl, permettent d'adapter au client certains aspects du produits.</para>
-           <para>En paralléle, expertise auprès des équipes support et d'intégration validation pour les problèmes de temps réel et réseaux.
+           <para>En paralléle, expertise auprès des équipes support et d'intégration validation pour les problèmes de temps réel et réseaux.</para>
         </description>
      </experience>
      <experience>
