@@ -1,0 +1,11 @@
+<fop version="1.0">
+    <renderers>
+        <renderer mime="application/pdf">
+            <fonts>
+                <!-- register all the fonts found in a directory -->
+                <directory>/home/lsbonnefo/proot/ubuntu/usr/share/fonts/truetype/roboto/hinted</directory>
+
+            </fonts>
+        </renderer>
+    </renderers>
+</fop>

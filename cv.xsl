@@ -10,7 +10,7 @@
 
 	 <fo:page-sequence master-reference="A4">
 	    <fo:flow flow-name="xsl-region-body">
-	       <fo:block font-family="roboto">
+	       <fo:block font-family="Roboto">
 		  <fo:table width="100%" border-collapse="collapse" table-layout="fixed" >
 		     <fo:table-column column-width="5cm"/>
 		     <fo:table-column/>
@@ -61,10 +61,10 @@
    </xsl:template>
 
    <xsl:template match="author">
-      <fo:block font-size="10pt" font-weight="bold">
+      <fo:block font-size="10pt" font-family="Roboto" font-weight="medium">
 	 <xsl:value-of select="firstname"/>&#160;<xsl:value-of select="surname"/>
       </fo:block>
-      <fo:block font-size="8pt" >
+      <fo:block font-family="Roboto" font-size="8pt" >
 	 <xsl:value-of select="address/street"/>
       </fo:block>
       <fo:block font-size="8pt" >
@@ -92,7 +92,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="36pt" space-after="5pt" font-family="roboto">
+      <fo:block font-size="36pt" space-after="5pt" font-family="Roboto">
 	 <xsl:value-of select="."/>
       </fo:block>
    </xsl:template>
@@ -106,7 +106,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="3pt" font-family="roboto" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="3pt" font-family="Roboto" keep-with-next="100">
 	 Skills
       </fo:block>
       <xsl:for-each select="skill">
@@ -128,7 +128,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="3pt" font-family="roboto" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="3pt" font-family="Roboto" keep-with-next="100">
 	 Professional Experiences
       </fo:block>
       <xsl:for-each select="experience">
@@ -156,7 +156,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="5pt" font-family="roboto" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
 	 Education
       </fo:block>
       <xsl:apply-templates select="para"/>
@@ -171,7 +171,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="5pt" font-family="roboto" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
 	 Languages
       </fo:block>
       <xsl:apply-templates select="para"/>
@@ -186,7 +186,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="5pt" font-family="roboto" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
 	 Others
       </fo:block>
       <xsl:apply-templates select="para"/>
