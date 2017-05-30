@@ -48,12 +48,21 @@
   </skills>
   <experiences>
      <experience>
+        <date>Novembre 2011 - Decembre 2013</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Developpeur</title>
+           <para>Dans l'équipe MooN, développement d'une nouvelle plateforme critique de sécurité à partir d'une architecture materielle sur étagère (Intel core i7). L'objectif est de créer une plateforme de calcul et d'échanges de données de sécurité (SIL4 au sens EN50128). L'architecture 2oo2 redondée permet d'avoir un taux de disponibilité théorique de 100%.</para>
+           <para>Basée sur un hyperviseur certifié SIL4, des conteneurs SIL4 permettent d'éxécuter le code critique tandis qu'un conteneur Linux est responsable de la communication et de la gestion de la carte. Un mecanisme de mémoire partagée permet la comminication entre conteneurs.</para>
+           <para>Dans le cadre de ce développement, mise en place de méthodes agiles et en particulier de Scrum, sans que cette expérience perdure plus de quelques mois.</para>
+        </description>
+     </experience>
+     <experience>
         <date>Septembre 2010 - Octobre 2011</date>
         <company>Alstom Transport</company>
         <description>
            <title>Responsable technique validation</title>
-           <para>Dans l'équipe TCMS Platform, reponsabilité de l'équipe validation système (7 personnes). Validation d'un système composé d'une architecture materielle standard (calculateurs, boitiers d'entrées sorties déportées, consoles), de couches de bases logicielles </para>
-           <para>En paralléle, expertise auprès des équipes support et d'intégration validation pour les problèmes de temps réel et réseaux.
+           <para>Dans l'équipe TCMS Platform, reponsabilité de l'équipe validation système (7 personnes). Validation d'un système composé d'une architecture materielle standard (calculateurs, boitiers d'entrées sorties déportées, consoles), de couches de bases logicielles et de l'environnement de développement et de configuration permettant de créer des applications et de les déployer.</para>
         </description>
      </experience>
      <experience>
