@@ -10,7 +10,7 @@
 
 	 <fo:page-sequence master-reference="A4">
 	    <fo:flow flow-name="xsl-region-body">
-	       <fo:block font-family="sans-serif">
+	       <fo:block font-family="roboto">
 		  <fo:table width="100%" border-collapse="collapse" table-layout="fixed" >
 		     <fo:table-column column-width="5cm"/>
 		     <fo:table-column/>
@@ -37,7 +37,7 @@
 		  <fo:table-column/>
 		     <fo:table-body>
 			<fo:table-row>
-			   <fo:table-cell background-color="rgb(255,185,107)" >
+			   <fo:table-cell background-color="#A0B2A6" >
 			      <fo:block>
 				 &#160;
 			      </fo:block>
@@ -84,7 +84,7 @@
    </xsl:template>
 
    <xsl:template match="title">
-      <fo:table table-layout="fixed" space-before="24pt" space-after="-34pt" border-style="none" background-color="rgb(135,200,255)" >
+      <fo:table table-layout="fixed" space-before="24pt" space-after="-34pt" border-style="none" background-color="#61988E" >
 	<fo:table-column column-width="15cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -92,13 +92,13 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="36pt" space-after="5pt" font-family="sans-serif">
+      <fo:block font-size="36pt" space-after="5pt" font-family="roboto">
 	 <xsl:value-of select="."/>
       </fo:block>
    </xsl:template>
 
    <xsl:template match="skills">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="rgb(168,255,140)" >
+      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#CBBFBB" >
 	<fo:table-column column-width="1.5cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -106,7 +106,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="3pt" font-family="sans-serif" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="3pt" font-family="roboto" keep-with-next="100">
 	 Skills
       </fo:block>
       <xsl:for-each select="skill">
@@ -120,7 +120,7 @@
    </xsl:template>
 
    <xsl:template match="experiences">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="rgb(168,255,140)" >
+      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	<fo:table-column column-width="8cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -128,7 +128,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="3pt" font-family="sans-serif" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="3pt" font-family="roboto" keep-with-next="100">
 	 Professional Experiences
       </fo:block>
       <xsl:for-each select="experience">
@@ -136,7 +136,7 @@
 	    <fo:block font-size="12pt" space-before="9pt" font-weight="bold" text-align="end" line-height="0cm">
 	       <xsl:value-of select ="date"/>
 	    </fo:block>
-	    <fo:block font-size="12pt"  font-weight="bold" color="blue" line-height="0cm" space-after="7pt">
+	    <fo:block font-size="12pt"  font-weight="bold" color="#493843" line-height="0cm" space-after="7pt">
 	       <xsl:value-of select ="company"/>
 	    </fo:block>
 	    <fo:block font-size="10pt" font-weight="bold">
@@ -148,7 +148,7 @@
    </xsl:template>
 
    <xsl:template match="education">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="rgb(168,255,140)" >
+      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	<fo:table-column column-width="2.5cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -156,14 +156,14 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="5pt" font-family="sans-serif" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="5pt" font-family="roboto" keep-with-next="100">
 	 Education
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
    
    <xsl:template match="languages">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="rgb(168,255,140)" >
+      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	<fo:table-column column-width="3cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -171,14 +171,14 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="5pt" font-family="sans-serif" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="5pt" font-family="roboto" keep-with-next="100">
 	 Languages
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
 
    <xsl:template match="others">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="rgb(168,255,140)" >
+      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	 <fo:table-column column-width="1.5cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -186,7 +186,7 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="22pt" space-after="5pt" font-family="sans-serif" keep-with-next="100">
+      <fo:block font-size="22pt" space-after="5pt" font-family="roboto" keep-with-next="100">
 	 Others
       </fo:block>
       <xsl:apply-templates select="para"/>
