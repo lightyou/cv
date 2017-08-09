@@ -1,0 +1,17 @@
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y fop fonts-roboto
+
+script: fop -xsl cv.xsl -xml cv.xml -pdf cv.pdf -c conf.xml
+
+deploy:
+  - provider: surge
+    skip_cleanup: true
+    on:
+      all_branches: true
+  - provider: releases
+    api_key: "GITHUB OAUTH TOKEN"
+    file: "cv.pdf"
+    skip_cleanup: true
+    on:
+      tags: true

@@ -3,7 +3,7 @@
         <renderer mime="application/pdf">
             <fonts>
                 <!-- register all the fonts found in a directory -->
-                <directory>/home/lsbonnefo/proot/ubuntu/usr/share/fonts/truetype/roboto/hinted</directory>
+                <directory>/usr/share/fonts/truetype/roboto/hinted</directory>
 
             </fonts>
         </renderer>
