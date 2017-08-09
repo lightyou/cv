@@ -2,7 +2,7 @@ before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y fop fonts-roboto
 
-script: fop -xsl cv.xsl -xml cv.xml -pdf cv.pdf
+script: fop -xsl cv.xsl -xml cv.xml -pdf cv.pdf -c conf.xml
 
 deploy:
   - provider: surge
