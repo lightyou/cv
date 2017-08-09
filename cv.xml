@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xml" media="screen" href="cv-xhtml.xsl" ?>
 <cv>
    <author>
-      <firstname>Sébastien</firstname>
+      <firstname>Sï¿½bastien</firstname>
       <surname>Bonnefoy</surname>
       <address>
 	 <street>7, rue Malakoff</street>
@@ -77,6 +77,7 @@
 	       <para>"Station Sol" is a maintenance software for helicopters. It is used for maintenance team to follow all parts of helicotpers and to diagnostics failures and parts replacement needs.</para>
 	       <para>I worked on VB5 to VB6 port with pattern substitution in PERL. I also worked on multiuser database part and I delivered software to Eurocpter Marignane.</para>
 	    </description>
+    </experience>
 	 <experience>
 	    <date>September 2001 - April 2002 </date>
 	    <customer>GEMPLUS</customer>
@@ -128,7 +129,7 @@
       <languages>
 	 <para><emphasis>French</emphasis> : native</para>
 	 <para><emphasis>English</emphasis> : good level</para>
-	 <para><emphasis>Spanish</emphasis> : novice</para> 
+	 <para><emphasis>Spanish</emphasis> : novice</para>
       </languages>
       <others>
 	 <para>I like skiing and walking in montain.</para>
