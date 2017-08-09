@@ -1,17 +1,16 @@
 before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y fop fonts-roboto
-
+- sudo apt-get -qq update
+- sudo apt-get install -y fop fonts-roboto
 script: fop -xsl cv.xsl -xml cv-fr.xml -pdf cv.pdf -c conf.xml
-
 deploy:
+  - provider: releases
+    api_key:
+      secure: GOLugU8VHE2S0WBkJWy3+f8saWCYuWI/4U45DdGCUc2CQld4CPQyFHQySJc7VWuKn7r9pschnsuSf5k8S3i9ZK7J8/y33lJayu6sIx/kKAKVzuxL13a7/WMzb9wGyuxHm7jG64Sn2AtkMwB5N1uCmWhpXIwEEf0WtBmBNIyc2sIfurrrcEVa0z0nsK8G7nc2w5Bd6JVgmJ8IOan5b87HYVIfSB5OXTE66adwooOB/MjgbvF1vuuc13x6cnH5aAb4fki7rTSlPwsOuT3IYvUoqBrZU7zWGptZ9qW2RTNA9qyPQJ4H5OoxaZkutPkEH390CV9mubT7SzlJKXywn9DhAW6h+dZFJCzCpLLmVRjreAoUcuDH9VFs7h4/aYpX05qgi0zkLOm9ALu0idCXibllM/OoyBlTsNY43deTd0RErl23LHj+B02unU2BRg6LTRQWJsz0ndV2bC9hQBF9ywbVkOnsabblfJ6Nxq3CjGBSlvOEnJpMpRK+Ri3B+V6Ec0wB2esXvXQQziXo49bsOZfhxsLc6Ps0tXuB+gl7Tjxb2ruZSKErgvcrs5kYwr1t4MctL+g/BLuV9RPRvTqDejnQxZMi7AICLsOjA5tdOEn7ucBA5ZgKfS/IEewqlCP5wAn39eCmoaegzayE9QQm69kq+zC/bnHPIg0eeIbqldSCkyU=
+    file: cv.pdf
+    skip_cleanup: true
+    on:
+      repo: lightyou/cv
   - provider: surge
     skip_cleanup: true
     on:
       all_branches: true
-  - provider: releases
-    api_key: "GITHUB OAUTH TOKEN"
-    file: "cv.pdf"
-    skip_cleanup: true
-    on:
-      tags: true
