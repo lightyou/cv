@@ -4,3 +4,15 @@ before_install:
 
 script: fop -xsl cv.xsl -xml cv.xml -pdf cv.pdf
 
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "cv.pdf"
+  skip_cleanup: true
+  on:
+    tags: true
+
+deploy:
+  provider: surge
+  domain: lightyou.surge.sh
+  skip_cleanup: true
