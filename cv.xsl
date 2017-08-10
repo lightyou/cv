@@ -79,7 +79,7 @@
 	 </xsl:for-each>
       </fo:block>
       <fo:block font-family="Roboto" font-size="8pt" >
-	 <xsl:value-of select="age"/> years old
+	 <xsl:value-of select="age"/> ans
       </fo:block>
    </xsl:template>
 
@@ -107,7 +107,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="3pt" font-family="Roboto" keep-with-next="100">
-	 Skills
+	 Compétences
       </fo:block>
       <xsl:for-each select="skill">
 	 <fo:block font-size="10pt" space-before="2pt" font-family="Roboto" font-weight="bold" keep-with-next="50">
@@ -129,7 +129,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="3pt" font-family="Roboto" keep-with-next="100">
-	 Professional Experiences
+	 Expériences Professionnelles
       </fo:block>
       <xsl:for-each select="experience">
 	 <fo:block keep-together="50" orphans="4" widows="5">
@@ -157,7 +157,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
-	 Education
+	 Etudes
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
@@ -172,7 +172,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
-	 Languages
+	 Langues
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
@@ -187,7 +187,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
-	 Others
+	 Autre
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
