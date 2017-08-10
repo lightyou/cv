@@ -9,7 +9,7 @@ deploy:
     file: cv.pdf
     skip_cleanup: true
     on:
-      repo: lightyou/cv
+      tags: true
   - provider: surge
     skip_cleanup: true
     on:
