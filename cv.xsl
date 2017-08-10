@@ -4,7 +4,7 @@
       <fo:root>
 	 <fo:layout-master-set>
 	    <fo:simple-page-master master-name="A4" page-width="210mm" page-height="297mm" margin-top="0.5cm" margin-bottom="0.5cm" margin-left="0.5cm" margin-right="0.5cm">
-	       <fo:region-body/>	   
+	       <fo:region-body/>
 	    </fo:simple-page-master>
 	 </fo:layout-master-set>
 
@@ -67,18 +67,18 @@
       <fo:block font-family="Roboto" font-size="8pt" >
 	 <xsl:value-of select="address/street"/>
       </fo:block>
-      <fo:block font-size="8pt" >
+      <fo:block font-family="Roboto" font-size="8pt" >
 	 <xsl:value-of select="address/zipcode"/>&#160;<xsl:value-of select="address/town"/>
       </fo:block>
-      <fo:block font-size="8pt" >
+      <fo:block font-family="Roboto" font-size="8pt" >
 	 <xsl:value-of select="address/country"/>
       </fo:block>
-      <fo:block font-size="8pt" >
+      <fo:block font-family="Roboto" font-size="8pt" >
 	 <xsl:for-each select="address/phone/*">
 	    &#x260E; <xsl:value-of select="name()"/> : <xsl:value-of select="."/>
 	 </xsl:for-each>
       </fo:block>
-      <fo:block font-size="8pt" >
+      <fo:block font-family="Roboto" font-size="8pt" >
 	 <xsl:value-of select="age"/> years old
       </fo:block>
    </xsl:template>
@@ -92,13 +92,13 @@
 	  </fo:table-row>
 	</fo:table-body>
       </fo:table>
-      <fo:block font-size="36pt" space-after="5pt" font-family="Roboto">
+      <fo:block font-size="32pt" space-after="5pt" font-family="Roboto">
 	 <xsl:value-of select="."/>
       </fo:block>
    </xsl:template>
 
    <xsl:template match="skills">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#CBBFBB" >
+     <fo:table font-size="8pt" font-family="Roboto" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#CBBFBB" >
 	<fo:table-column column-width="1.5cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -110,7 +110,7 @@
 	 Skills
       </fo:block>
       <xsl:for-each select="skill">
-	 <fo:block font-size="10pt" space-before="2pt" font-weight="bold" keep-with-next="50">
+	 <fo:block font-size="10pt" space-before="2pt" font-family="Roboto" font-weight="bold" keep-with-next="50">
 	    <xsl:value-of select ="title"/>
 	 </fo:block>
 	 <fo:block font-size="8pt" keep-together="30">
@@ -120,7 +120,7 @@
    </xsl:template>
 
    <xsl:template match="experiences">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
+      <fo:table font-size="8pt" font-family="Roboto" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	<fo:table-column column-width="8cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -133,22 +133,22 @@
       </fo:block>
       <xsl:for-each select="experience">
 	 <fo:block keep-together="50" orphans="4" widows="5">
-	    <fo:block font-size="12pt" space-before="9pt" font-weight="bold" text-align="end" line-height="0cm">
+	    <fo:block font-size="12pt" space-before="9pt" font-family="Roboto" font-weight="bold" text-align="end" line-height="0cm">
 	       <xsl:value-of select ="date"/>
 	    </fo:block>
-	    <fo:block font-size="12pt"  font-weight="bold" color="#493843" line-height="0cm" space-after="7pt">
+	    <fo:block font-size="12pt"  font-family="Roboto" font-weight="bold" color="#493843" line-height="0cm" space-after="7pt">
 	       <xsl:value-of select ="company"/>
 	    </fo:block>
-	    <fo:block font-size="10pt" font-weight="bold">
+	    <fo:block font-size="10pt" font-family="Roboto" font-weight="bold">
 	       <xsl:value-of select="description/title"/>
 	    </fo:block>
-	    <xsl:apply-templates select="description/para"/> 
+	    <xsl:apply-templates select="description/para"/>
 	 </fo:block>
       </xsl:for-each>
    </xsl:template>
 
    <xsl:template match="education">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
+      <fo:table font-size="8pt" font-family="Roboto" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	<fo:table-column column-width="2.5cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -161,9 +161,9 @@
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
-   
+
    <xsl:template match="languages">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
+      <fo:table font-size="8pt" font-family="Roboto" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	<fo:table-column column-width="3cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -178,7 +178,7 @@
    </xsl:template>
 
    <xsl:template match="others">
-      <fo:table font-size="8pt" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
+      <fo:table font-size="8pt" font-family="Roboto" table-layout="fixed" space-before="13pt" space-after="-22pt" border-style="none" background-color="#EABDA8" >
 	 <fo:table-column column-width="1.5cm"/>
 	<fo:table-body>
 	  <fo:table-row>
@@ -193,15 +193,14 @@
    </xsl:template>
 
    <xsl:template match="para">
-      <fo:block font-size="10pt" text-indent="5pt" space-before="2pt" keep-together="200">
+      <fo:block font-size="10pt" font-family="Roboto" text-indent="5pt" space-before="2pt" keep-together="200">
 	 <xsl:apply-templates select="emphasis|text()"/>
       </fo:block>
    </xsl:template>
-   
+
    <xsl:template match="emphasis">
       <fo:wrapper font-weight="bold" >
 	 <xsl:value-of select="."/>
-      </fo:wrapper> 
+      </fo:wrapper>
    </xsl:template>
 </xsl:stylesheet>
-
