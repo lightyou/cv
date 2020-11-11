@@ -48,6 +48,56 @@
    </skills>
    <experiences>
       <experience>
+     <experience>
+        <date>Janvier 2016 - Today</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Agile Coach</title>
+           <para>Acteur de la transformation agile du site de Villeurbanne, organisation des formations des équipes et des manageurs, accompagnement des équipes dans leur mise en oeuvre des méthodes agiles (Scrum, Kanban).</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Janvier 2016 - Today</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Software Designer</title>
+           <para>For innovation projects, development of web and mobile applications related to customer experience and connected trains.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>Octobre 2014 - September 2018</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Software Leader</title>
+           <para>For RGV2N2 and RGV Maroc projects, software project management, software integration and development for Passenger Information System. Implementation of new functions, defects correction, investigation, delivery, customer support.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>January 2014 - September 2014</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Softare Designer</title>
+           <para>In the comet team, development of new software modules for a non safety related communication (Ethernet, C.A.N., Profibus) and supervision (time/date, faults and maintenance) board used in embedded signaling computing devices.</para>
+        </description>
+     </experience>
+     <experience>
+        <date>November 2011 - December 2013</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Software Designer</title>
+           <para>In the MooN team, development of a brand new critical safety computing platform, from a On Shelf hardware (Intel Core i7). The objective was to create a safe (SIL 4 According to EN50128) computing and data exchange platform. The 2oo2 redunded architecture allowing a theorical 100% availability rate.
+           <para>Based on a SIL4 certified hypervisor, SIL4 containers execute critical code while a Linux container is responsible for the communication and board management. A shared memory mecanism allows inter-containers communication.</para>
+           <para>For this development, set up of Scrum Agile methods, without success in long term</para>
+        </description>
+     </experience>
+     <experience>
+        <date>September 2010 - October 2011</date>
+        <company>Alstom Transport</company>
+        <description>
+           <title>Validation team leader</title>
+           <para>In the TCMS Platform team, lead of the verification &amp; validation team (7 people). Validation of a system composed of a standard hardware arhitecture (embedded computing devices, remote input/output modules, displays), base software and development &amp; configuration environment to make, build and deploy Train Control applications.</para>
+        </description>
+     </experience>
 	 <date>September 2004 - January 2007</date>
 	 <customer>COFRAMI</customer>
 	 <description>
