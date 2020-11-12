@@ -107,7 +107,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="3pt" font-family="Roboto" keep-with-next="100">
-	 Compétences
+	 <!--Compétences-->Skills
       </fo:block>
       <xsl:for-each select="skill">
 	 <fo:block font-size="10pt" space-before="2pt" font-family="Roboto" font-weight="bold" keep-with-next="50">
@@ -129,7 +129,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="3pt" font-family="Roboto" keep-with-next="100">
-	 Expériences Professionnelles
+	 <!--Expériences Professionnelles-->Experience
       </fo:block>
       <xsl:for-each select="experience">
 	 <fo:block keep-together="50" orphans="4" widows="5">
@@ -157,7 +157,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
-	 Etudes
+	 <!--Etudes-->School
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
@@ -172,7 +172,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
-	 Langues
+	 <!--Langues-->Languages
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>
@@ -187,7 +187,7 @@
 	</fo:table-body>
       </fo:table>
       <fo:block font-size="22pt" space-after="5pt" font-family="Roboto" keep-with-next="100">
-	 Autre
+	 <!--Autre-->Other
       </fo:block>
       <xsl:apply-templates select="para"/>
    </xsl:template>

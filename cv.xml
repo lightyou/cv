@@ -2,24 +2,24 @@
 <?xml-stylesheet type="text/xml" media="screen" href="cv-xhtml.xsl" ?>
 <cv>
    <author>
-      <firstname>S�bastien</firstname>
+      <firstname>Sébastien</firstname>
       <surname>Bonnefoy</surname>
       <address>
-	 <street>7, rue Malakoff</street>
-	 <zipcode>38000</zipcode>
-	 <town>Grenoble</town>
+	 <street>329C route de Mornas</street>
+	 <zipcode>38110</zipcode>
+	 <town>Saint Victor de Cessieu</town>
 	 <country>France</country>
 	 <phone>
 	    <mobile>+33 6 64 74 28 85</mobile>
 	 </phone>
       </address>
-      <age>28</age>
+      <age>44</age>
    </author>
-   <title>Industrial Software Engineer</title>
+   <title>Software Architect and Agile Coach</title>
    <skills>
       <skill><title>Languages</title>
 	 <para>
-	    C, C++, Java, PERL, Ada, Assembly 68xxx, VHDL, Visual Basic, PHP, XML, XSL, HTML, CSS, JSP
+	    C, C++, Python, Perl, Ada, Go
 	 </para>
       </skill>
       <skill><title>Operating systems</title>
@@ -29,7 +29,7 @@
       </skill>
       <skill><title>Environments</title>
 	 <para>
-	    Borland C++ Builder, Visual C++, WindRiver Diab C, Rational APEX Duo, GNU/Gcc, QNX Momentix Tool Chain
+	    Borland C++ Builder, Visual Studio, WindRiver Diab C, Rational APEX Duo, GNU/Gcc, QNX Momentix Tool Chain
 	 </para>
       </skill>
       <skill><title>Hardware</title>
@@ -47,13 +47,21 @@
       </skill>-->
    </skills>
    <experiences>
-      <experience>
+     <experience>
+        <date>Janvier 2016 - September 2020</date>
+        <company>Alstom</company>
+        <description>
+           <title>Software Leader &amp; Architect</title>
+           <para>Setup of a new team for embedded software development of Passenger Counting and Train Remote WakeUp. Creation and animation of a 5 people team, using Scrum to develop embedded software and deliver the devices to projects.</para>
+		   <para>Creation of a brand new Continuous Integration / Continuous Delivery framework, base upon Kubernetes and Jenkins, to build, check and test (even on embedded target testing) embedded software</para>
+        </description>
+     </experience>
      <experience>
         <date>Janvier 2016 - Today</date>
-        <company>Alstom Transport</company>
+        <company>Alstom</company>
         <description>
            <title>Agile Coach</title>
-           <para>Acteur de la transformation agile du site de Villeurbanne, organisation des formations des équipes et des manageurs, accompagnement des équipes dans leur mise en oeuvre des méthodes agiles (Scrum, Kanban).</para>
+           <para>Part of the Agile transformation for Alstom, mainly Villeurbanne and Saint Ouen sites. Creation of the Agile Wareness Training for Alstom University. Trainings of teams and managers and coaching of teams practicing Scrum or Kanban.</para>
         </description>
      </experience>
      <experience>
@@ -85,7 +93,7 @@
         <company>Alstom Transport</company>
         <description>
            <title>Software Designer</title>
-           <para>In the MooN team, development of a brand new critical safety computing platform, from a On Shelf hardware (Intel Core i7). The objective was to create a safe (SIL 4 According to EN50128) computing and data exchange platform. The 2oo2 redunded architecture allowing a theorical 100% availability rate.
+           <para>In the MooN team, development of a brand new critical safety computing platform, from a On Shelf hardware (Intel Core i7). The objective was to create a safe (SIL 4 According to EN50128) computing and data exchange platform. The 2oo2 redunded architecture allowing a theorical 100% availability rate.</para>
            <para>Based on a SIL4 certified hypervisor, SIL4 containers execute critical code while a Linux container is responsible for the communication and board management. A shared memory mecanism allows inter-containers communication.</para>
            <para>For this development, set up of Scrum Agile methods, without success in long term</para>
         </description>
@@ -98,6 +106,7 @@
            <para>In the TCMS Platform team, lead of the verification &amp; validation team (7 people). Validation of a system composed of a standard hardware arhitecture (embedded computing devices, remote input/output modules, displays), base software and development &amp; configuration environment to make, build and deploy Train Control applications.</para>
         </description>
      </experience>
+     <experience>
 	 <date>September 2004 - January 2007</date>
 	 <customer>COFRAMI</customer>
 	 <description>
@@ -171,7 +180,7 @@
 	 </experience>
       </experiences>
       <education>
-	 <para><emphasis>1998 .. 2000</emphasis> - Computer science engineer graduate in I.S.M.E.A. ESIM Group in Marseille, France</para>
+	 <para><emphasis>1998 .. 2000</emphasis> - Computer science engineer graduate in ISMEA/ISMIN, Ecole des Mines de Saint Etienne, Marseille, France</para>
 	 <para><emphasis>1996 .. 1998</emphasis> - Computer science universitary graduate in Faculty of Science of Luminy, Marseille, France</para>
 	 <para><emphasis>1994 .. 1996</emphasis> - D.U.T Electrical Engineering graduate in IUT1 Joseph Fourrier University, Grenoble, France</para>
 	 <para><emphasis>1994</emphasis> - Baccalaureat E (mathematics &amp; technology) in L'isle sur la Sorgue, France</para>
